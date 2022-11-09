@@ -1,0 +1,112 @@
+/* navbar begins */
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* logo begins */
+#logo {
+    padding-left: 9vw;
+}
+#logo a {
+    color: black;
+    font-size: 36px;
+    text-decoration: none;
+}
+
+#logo a:hover {
+    color: #6C63FF;
+}
+/* logo ends */
+
+/* navbar items */
+#nav-links {
+    display: flex;
+    list-style: none;
+    padding-right: 9vw;
+}
+
+.nav-item {
+    color: black;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.nav-item a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .nav-item a:hover {
+    color: #6C63FF;
+  }
+
+  /* navbar ends */
+
+  /* header begins */
+  
+  header {
+    display: flex;
+  }
+
+  #header-txt-container {
+    padding-top: 12vh;
+    width: 40%;
+  }
+
+  #header-txt-container h1 {
+    font-size: 60px;
+    font-weight: lighter;
+  }
+
+  /* @media screen and (min-width: 500px) { */
+
+  
+  #header-txt-container p {
+    color: grey; 
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-left: 5vw;
+  }
+
+/* } */
+
+  #header-img-container img {
+    width: 55vw;
+
+  }
+
+/* header ends */
+
+/* quotes beigns */
+
+.main-quote {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.wrapper {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.wrapper a {
+    color: grey;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.wrapper a:hover {
+    color: #6C63FF;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+/* quote ends here */
