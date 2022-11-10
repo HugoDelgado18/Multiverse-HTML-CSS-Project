@@ -132,6 +132,10 @@
     margin: 0 auto;
 }
 
+.wrapper h3 {
+    font-weight: lighter;
+}
+
 .wrapper a {
     color: grey;
     font-family: sans-serif;
@@ -165,11 +169,11 @@ h3 {
     display: flex;
     flex-direction: row;
     list-style: none;
-    /* width: 90%; */
+    width: 87%;
 }
 
 .project-links img {
-    width: 80%;
+    width: 90%;
     /* height: 33%; */
 }
 
@@ -179,3 +183,23 @@ h3 {
 
 
 /* project section ends here */
+
+.connect-container {
+    background-color: #F3F6F4;
+    height: 20vh;
+    padding-top: 8%;
+    padding-left: 38%;
+}
+
+.connect-container h1 {
+    font-size: 4vh;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.connect-container a {
+    padding-left: 12%;
+    text-decoration: none;
+    color: grey;
+    font-family: sans-serif;
+}
