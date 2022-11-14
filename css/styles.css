@@ -1,3 +1,9 @@
+/* navbar v2 begins */
+
+
+
+/* navbar v2 ends */
+
 /* navbar begins */
 #navbar {
     display: flex;
@@ -53,13 +59,41 @@
     display: flex;
   }
 
+
+
+
+  @media screen and (max-width: 900px) {
+
+    #header-img-container {
+        /* opacity: 30%; */
+        /* width: 80vw; */
+        margin-left: 20%;
+    }
+
+    #header-txt-container {
+        position: absolute;
+        opacity: 50%;
+    }
+
+    #header-txt-container h1 {
+        display: none;
+    }
+
+  }
+
+  /* .fade-out {-moz-transition: all .5s ease-out;-o-transition: all .5s ease-out;transition: all .5s ease-out;} */
+   /*replace .yourelement with the element you want to fade in and out. The transition will last .5 second (half a second). change .5 to whatever you like */ 
+
+ 
+
+
   #header-txt-container {
     padding-top: 12vh;
     width: 40%;
   }
 
   #header-txt-container h1 {
-    font-size: 60px;
+    font-size: 7vh;
     font-weight: lighter;
   }
 
@@ -79,6 +113,8 @@
     width: 55vw;
 
   }
+
+
 
   @keyframes slideInFromLeft {
     0% {
@@ -185,6 +221,9 @@ h3 {
 /* project section ends here */
 
 .connect-container {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
     background-color: #F3F6F4;
     height: 20vh;
     padding-top: 8%;
@@ -202,4 +241,117 @@ h3 {
     text-decoration: none;
     color: grey;
     font-family: sans-serif;
+}
+
+.connect-container a:hover {
+    color: #6C63FF;
+}
+
+/* footer section begins */
+
+.footer-wrapper {
+    display: flex;
+    max-width: 1400px;
+    height: 18vh;
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #747572;
+    padding-top: 5%;
+}
+
+footer h1 {
+    margin-top: 2%;
+    color: white;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    padding-right: 9vw;
+}
+
+footer li {
+    color: black;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+footer a {
+    display: flex;
+    padding: 10px 15px;
+    /* padding-bottom: 45px; */
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+}
+
+footer a:hover {
+    color: #6C63FF;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+}
+
+.footer-links a {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.footer-links img {
+    height: 3vh;
+}
+
+/* footer section ends */
+
+#divider {
+    height: 20vh;
+}
+
+#frontend-bar {
+    background-color: #6C63FF;
+    height: 1vh;
+    width: 25vh;
+}
+
+#backend-bar {
+    background-color: #FF0000;
+    height: 1vh;
+    width: 15vh;
+}
+
+#react-bar {
+    background-color: #08FDD8;
+    height: 1vh;
+    width: 15vw;
+}
+
+
+/* projects in work section */
+
+#floral-container {
+    width: 40vw;
+    padding-bottom: 2%;
+}
+
+#floral-container img {
+    width: 55vw;
+}
+
+#newsletter-container {
+    margin-left: 30%;
+    width: 40vw;
+}
+
+#newsletter-container img {
+    width: 55vw;
 }

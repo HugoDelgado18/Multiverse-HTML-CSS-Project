@@ -5,28 +5,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2f4e6de334.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Hugo's Porfolio</title>
 </head>
 
 <body>
+    <!-- mobile navbar begins -->
+    <!-- <nav>
+        <ul class="menu">
+            <li class="logo"><a href="#">H.</a></li>
+            <li class="item"><a href="#">HOME</a></li>
+            <li class="item"><a href="#">WORK</a></li>
+            <li class="item has-submenu">
+            <li class="item"><a href="#">SKILLS</a></li>
+            <li class="item"><a href="#">Contact</a></li>
+            <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+        </ul>
+    </nav> -->
+    <!-- mobile navbar ends -->
     <!-- navbar begins -->
     <nav id="navbar">
         <h1 id="logo"><a href="./index.html">H.</a></h1>
         <ul id="nav-links">
             <li class="nav-item"><a class="nav-text" href="./index.html">HOME</a></li>
-            <li class="nav-item"><a class="nav-text" href="./index.html">WORK</a></li>
-            <li class="nav-item"><a class="nav-text" href="./index.html">SKILLS</a></li>
-            <li class="nav-item"><a class="nav-text" href="./index.html">CONTACT</a></li>
+            <li class="nav-item"><a class="nav-text" href="./pages/work.html">WORK</a></li>
+            <li class="nav-item"><a class="nav-text" href="./pages/skills.html">SKILLS</a></li>
         </ul>
     </nav>
     <!-- navbar ends -->
     <!-- header begins -->
     <header>
-        <div id="header-img-container" class="fade-in-image">
-            <img src="./images/header.svg" alt="my roadmap"/>
+        <div id="header-img-container" class="fade-in-image" class="fade-out">
+            <img src="./images/header.svg" alt="my roadmap" />
         </div>
-        <div id="header-txt-container" class="fade-in-txt">
+        <div id="header-txt-container" class="fade-in-txt" class="fade-out">
             <h1>Hugo Delgado</h1>
             <p>Software Engineer Apprentice</p>
         </div>
@@ -39,7 +52,6 @@
             <!-- wrapper begins -->
             <div class="wrapper">
                 <h3> "Do not let what you cannot do interfere with what you can do."—John Wooden </h3>
-                <a href="./index.html">learn more</a>
             </div>
 
         </section>
@@ -72,12 +84,31 @@
             <a href="">view work</a>
         </div>
     </section>
-    <section class="connect-container">
+    <!-- project section ends -->
+    <!-- connect with me begins -->
+    <!-- <section class="connect-container">
         <h1>Connect with me!</h1>
         <a href="./index.html">GET IN TOUCH</a>
-
-    </section>
-
+    </section> -->
+    <!-- connect with me ends -->
+    <!-- footer section begins -->
+    <footer>
+        <div class="footer-wrapper">
+            <h1>H.</h1>
+            <ul>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./pages/work.html">WORK</a></li>
+                <li><a href="./pages/skills.html">SKILLS</a></li>
+            </ul>
+        </div>
+        <div class="footer-links">
+            <a href="https://www.linkedin.com/in/hugo-delgado-swe/" target="_blank"><img src="./images/linkedin(1).svg" alt="linkedin link" /></a>
+            <a href="https://github.com/HugoDelgado18" target="_blank"><img src="./images/github.svg" alt="github link" /></a>
+        </div>
+    </footer>
+    <!-- footer section ends -->
+	
+    <script src="script.js"></script>
 </body>
 
 </html>
